@@ -1,0 +1,74 @@
+.stats-container {
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around; /* Space around each item */
+    align-items: stretch; /* Stretch items to the same height */
+     /* Wrap items to the next line if needed */
+}
+.stat {
+    text-align: center;
+    font-size: 20px;
+    flex: 1 1 30%; /* Flex-grow: 1, Flex-shrink: 1, Flex-basis: 30% */
+    margin:10px;
+    border: 2px solid #000;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.stat .number {
+    font-size: 40px;
+    color: #e74c3c;
+}
+
+.number {
+    transition: all 1s ease-in-out;
+    counter-reset: num var(--num);
+}
+
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.achievements-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+
+}
+
+.achievements-section h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.awards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.award img {
+    width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+.award {
+    box-shadow: 0 4px 8px rgba(96, 72, 72, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.award:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.award:hover {
+    transform: rotate(5deg);
+}

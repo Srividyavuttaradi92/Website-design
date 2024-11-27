@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="abtcontact.css">
+</head>
+<body>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="tel" name="mobile" placeholder="Mobile Number" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                
+                <select name="qualification" required>
+                    <option value="" disabled selected>Select Qualification</option>
+                    <option value="highschool">High School</option>
+                    <option value="bachelors">Bachelors</option>
+                    <option value="masters">Masters</option>
+                </select>
+
+                <select name="service" required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="migration">Migration</option>
+                    <option value="study-abroad">Study Abroad</option>
+                    <option value="visa">Visa Assistance</option>
+                </select>
+
+                <input type="text" name="city" placeholder="City" required>
+
+                <textarea name="message" placeholder="Message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

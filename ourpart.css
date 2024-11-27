@@ -1,0 +1,54 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.slider {
+    display: flex;
+    width: calc(200px * 18); /* Double the width to account for the duplicated images */
+    animation: scroll 30s linear infinite;
+}
+
+.slider img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); /* Move the slider halfway to create a loop */
+    }
+}
+.partnered-institutes-section {
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto; /* Center alignment with margin */
+    
+}
+
+.partnered-institutes-section h1 {
+    font-size: 4.5em; /* Large, prominent heading */
+    color: #120202; /* Darker text color */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Space below heading */
+    font-family: 'Times New Roman', Times, serif; /* Use the preferred Google font */
+}
+
+.partnered-institutes-section .description {
+    font-size: 1.2em; /* Larger font size for readability */
+    color: #4e4328; /* Medium-dark text color */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 30px; /* Space below the paragraph */
+    max-width: 700px; /* Max width for text content */
+    margin: 0 auto; /* Center the paragraph */
+    font-family: 'Times New Roman', Times, serif; /* Use the preferred Google font */
+}
+

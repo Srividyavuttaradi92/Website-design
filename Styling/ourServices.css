@@ -1,0 +1,54 @@
+.services-container {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the space between the service boxes */
+    font-family: 'Times New Roman', Times, serif;
+}
+.ser{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.3s ease;
+    
+}
+.service:hover {
+    background-color: #edc7e9; /* Change background color on hover */
+    border-color: #8a4207; /* Change border color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+    transform: translateY(-5px); /* Slightly lift the box on hover */
+}
+
+.service {
+    flex: 1 1 calc(20% - 5px); /* Each service will take up 25% of the row minus the gap */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Add padding to the service boxes */
+    text-align: center; /* Center the text */
+    border: 2px solid #b10707; /* Optional: Add a border */
+    background-color: #eee6d5; /* Optional: Background color */
+    border-radius: 25px;
+    box-shadow: #993213;
+   font-family: 'Times New Roman', Times, serif;
+   transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+.service img {
+    max-width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.3s ease; 
+}
+.service h3 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service p {
+    font-size: 14px;
+    color: #8a4207;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns all children to the left */
+}
+
+/* Full Page Background */
+.container {
+    background: url("sky home.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+    gap: 10px; /* Optional: Adds space between text and form */
+}
+
+/* Blog Text */
+.text {
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    flex: 1; /* Takes up available space on the left */
+    margin-left: 40px; /* Ensure there is some padding on the left side */
+}
+
+
+/* Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 6px 9px;
+    width: 40%;
+    max-width: 1200px; /* Ensure the form doesn't become too wide on large screens */
+    box-shadow: 0 0 15px rgba(123, 48, 48, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px; /* Ensure there is some padding on the right side */
+}
+
+.form-container h2 {
+    font-size: 2em;
+    color: #FF5722;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #0c0101;
+    text-align: center;
+}
+
+.form-container input, .form-container select, .form-container textarea {
+    width: 100%;
+    padding: 1px;
+    font-size: 1em;
+    border-radius: 12px;
+    border: 1px solid #1c1414;
+    margin-bottom: 15px;
+}
+
+.form-container button {
+    background-color: #FF5722;
+    border: none;
+    padding: 1px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #e64a19;
+}

@@ -1,0 +1,625 @@
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-image: url('liberty.png'); /* Add the background image path */
+    background-size: cover;
+    background-position: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: #090101;
+}
+
+/* Text Header Styling */
+.text {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: rgba(223, 212, 212, 0.9);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    font-family:'Times New Roman', Times, serif
+}
+
+/* Form Heading */
+.form-container h2 {
+    font-size: 24px;
+    color: #991529;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Form Paragraph */
+.form-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Input Styling */
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 0px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e55d00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .text {
+        font-size: 40px;
+    }
+
+    .form-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 20px;
+  
+    
+}
+h1 {
+    color: #180202; /* Dark text color */
+    padding: 15px; /* Padding around the text */
+    font-size: 40px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove any default margins */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.consultant-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.consultant {
+    background-color:rgb(237, 237, 233);
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%;
+}
+
+.consultant-title {
+    background-color: #d49a6a;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: -20px -20px 20px -20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 16px;
+}
+.who-we-are {
+    text-align: center;
+    margin: 20px 0;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.who-we-are h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 0px 0px 10px rgba(37, 9, 9, 0.1);
+}
+
+.services-content {
+    flex: 1;
+    margin-right: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.services-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.services-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-content li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #453e3e;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.services-content li strong {
+    font-size: 20px;
+    color: #b00909;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.services-image {
+    flex: 1;
+    text-align: center;
+}
+
+.services-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   font-family:'Times New Roman', Times, serif;
+}
+
+.content-section {
+  
+    padding: 0px;
+    margin: 20px auto;
+    max-width: 10000px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h1 {
+    color: #333;
+    text-align: Center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.1em;
+    color: #130101;
+    margin-bottom: 0px;
+   
+}
+
+.content-section strong {
+    color: #0056b3;
+}
+
+.content-section p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Timeline container */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #322222;
+    position: relative;
+    transition: all 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Timeline item */
+.timeline-item {
+    padding: 0px 0px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.timeline-item.left {
+    left: 0;
+    align-items: flex-end;
+    text-align: right;
+    border-right: 3px solid #5c0d0489;
+}
+
+.timeline-item.right {
+    left: 50%;
+    align-items: flex-start;
+    text-align: left;
+    border-left: 3px solid #500903;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: #d1ab58;
+    z-index: 1;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #8a2a2a; /* Orange line color */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item.left:before {
+    right: -12.5px;
+}
+
+.timeline-item.right:before {
+    left: -12.5px;
+}
+
+/* Content inside each timeline item */
+.timeline-content {
+    background-color: #efe8e8;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.timeline-content h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #a13329;
+    margin-bottom: 10px;
+}
+
+.timeline-content h3 {
+    font-size: 20px;
+    color: #2a0808;
+    margin-bottom: 15px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    color: #2b2828;
+}
+
+.timeline-content img {
+    max-width: 50px;  /* Reduced image size */
+    height: auto;
+    margin-top: 10px; /* Reduced margin */
+    border-radius: 5px;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .timeline-item {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        border-left: 0;
+        border-right: 0;
+        padding: 0px;
+    }
+
+    .timeline-item.left, .timeline-item.right {
+        left: 0;
+    }
+
+    .timeline-item.left:before, .timeline-item.right:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline-content {
+        text-align: center;
+    }
+}
+
+
+/* CEO's Message Heading */
+h1.consultant.ceo {
+    font-size: 3.5em;
+    text-align: center;
+    margin: 20px 0;
+    color: #020e19;
+}
+
+/* CEO Section Styles */
+.ceo-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* CEO Container Styles */
+.ceo {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(27, 8, 97, 0.1);
+    box-sizing: border-box;
+}
+
+/* Paragraph Styles */
+.ceo p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #1a1717;
+   
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ceo-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ceo {
+        margin: 10px 0;
+    }
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff7700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+    color:white;
+}
+
+/* Ensuring the button is centered inside the section */
+.expert-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;transition: background-color 0.3s ease-in-out;
+}
+
+.footer-section {
+    width: 23%;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-address {
+    text-align: left;
+    transition: text-align 0.3s ease-in-out;
+}
+
+.footer-logo {
+    max-width: 100%;
+    height: auto;
+    transition: text-align 0.3s ease-in-out;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer-links {
+    margin-top: 15px;
+    transition: margin-top 0.3s ease-in-out;
+}
+
+.footer-links a {
+    color: #bc0000;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-title {
+    color: #f58220;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+
+.quick-links ul,
+.visa-info ul {
+    list-style-type: none;
+    padding: 0;
+    transition: padding 0.3s ease-in-out;
+}
+
+.quick-links ul li,
+.visa-info ul li {
+    margin-bottom: 10px;
+    transition: margin-bottom 0.3s ease-in-out;
+}
+
+.quick-links ul li a,
+.visa-info ul li a {
+    color: #cc39ac;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.quick-links ul li a:hover,
+.visa-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p,
+.visa-info p {
+    color:#f58220;
+    margin-bottom: 10px;
+    transition: margin-bottom 0.3s ease-in-out;
+}
+
+.contact-info .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #cc0000cb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact-info .social-icons a:hover {
+    color: #f58220;
+}
+
+i.fa {
+    margin-right: 8px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #20caf5;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px;
+    }
+
+    .footer-section {
+        margin-bottom: 15px;
+    }
+
+    .footer-title {
+        font-size: 16px;
+    }
+
+    .address, .footer-links a, .contact-info p, .visa-info p {
+        font-size: 13px;
+    }
+}
+.study-abroad-list {
+    background-color: #1c1c1c; /* Matches the dark background color */
+    padding: 20px;
+    width: 200px; /* Adjust the width if needed */
+}
+
+.study-abroad-list ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.study-abroad-list li {
+    font-size: 18px; /* Font size matching the example */
+    line-height: 1.8; /* Adds space between each item */
+    color: #d1d1d1; /* Light gray color for text */
+}
+
+.study-abroad-list li:hover {
+    color: #ffffff; /* Change color on hover */
+    cursor: pointer;
+}

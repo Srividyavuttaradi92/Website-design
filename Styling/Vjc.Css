@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 1px 0;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    min-height:5vh;
+
+}
+header .bg-light {
+    padding: 20px 0;
+ 
+}
+
+.logo-img {
+    max-height: 100px; /* Adjust according to your design */
+    width: 79px; /* Adjust the width as needed */
+    height:auto;
+
+}
+header .row {
+    display: float;
+    align-items: left;
+    justify-content: space-between;
+    min-height: 5vh;
+}
+
+.logo {
+    display:inline-block;
+  align-items:center;
+  justify-content:center;
+}
+
+/* General dropdown styling */
+.navbar-nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    min-width: 10px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.01);
+    border-bottom: 2px solid #bd5353;
+    border-top: 2px solid #bd5353;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.navbar-nav .dropdown-item {
+    color: rgb(133, 16, 16);
+    padding: 1px 6px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #e4a9a9;
+}
+
+/* Show the dropdown menu on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar customization */
+.navbar-nav .nav-link {
+    padding: 1px 4px;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12.5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/*banner of select your favouraite country*/
+.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(222, 213, 213, 0.5);
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+}

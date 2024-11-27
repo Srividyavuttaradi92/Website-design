@@ -1,0 +1,109 @@
+/* Basic styles */
+.services {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e1c5c5;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.services h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Cards container */
+.service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:0px;
+    border-radius:50px;
+}
+
+/* Individual card styling */
+.card {
+    background-color: #d4cec8;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    height:10;
+    text-align: center;
+    box-shadow: 0 2px 20px rgba(182, 5, 5, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Animation delay for each card */
+.card:nth-child(1) {
+    animation: slideIn 0.5s ease-out 0s forwards;
+}
+.card:nth-child(2) {
+    animation: slideIn 0.5s ease-out 0.2s forwards;
+}
+.card:nth-child(3) {
+    animation: slideIn 0.5s ease-out 0.4s forwards;
+}
+.card:nth-child(4) {
+    animation: slideIn 0.5s ease-out 0.4s forwards;
+}
+
+.card:nth-child(5) {
+    animation: slideIn 0.5s ease-out 0.4s forwards;
+}
+.card:nth-child(6) {
+    animation: slideIn 0.5s ease-out 0.4s forwards;
+}
+
+
+/* Image styling */
+.card img {
+    width: 50px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+
+/* Text styling */
+.card h2 {
+    font-size: 1.5em;
+    color: #053149;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-size: 1em;
+    font-weight: bold;
+    color: #6d2424;
+    margin: 0;
+}
+
+/* Hover effect on the cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(210, 19, 19, 0.2);
+}
+
+/* Fade-in animation for the entire section */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slide-in animation for cards */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+

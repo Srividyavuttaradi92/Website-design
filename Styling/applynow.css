@@ -1,0 +1,74 @@
+/* Styling for the entire body to center the form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c4c9ceac; /* Light background color for better visibility */
+}
+#contact-form {
+    background-image: url('Onegiphy.gif'); /* Path to your background image */
+    background-size: cover; /* Cover the entire form area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 0 10px rgba(63, 11, 11, 0.1); /* Subtle shadow for better visibility */
+    max-width: 500px; /* Maximum width for the form */
+    width: 100%; /* Full width up to the maximum width */
+    color: #1a0101; /* Text color to ensure readability on the background image */
+}
+
+/* Styling for the form container */
+#wpcf7-form {
+   font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    max-width: 500px; /* Maximum width for the form */
+    width: 100%; /* Full width up to the maximum width */
+}
+
+/* Styling for form elements */
+.wpcf7-form-control-wrap {
+    margin-bottom: 15px;
+   
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b07c7c;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+button.wpcf7-submit {
+    background-color: #007bff; /* Blue background for the submit button */
+    color: #0c0101; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button.wpcf7-submit:hover {
+    background-color: #0056b3; /* Darker blue for button hover effect */
+}

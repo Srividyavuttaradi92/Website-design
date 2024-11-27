@@ -1,0 +1,143 @@
+.footer-container {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;transition: background-color 0.3s ease-in-out;
+}
+
+.footer-section {
+    width: 23%;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-address {
+    text-align: left;
+    transition: text-align 0.3s ease-in-out;
+}
+
+.footer-logo {
+    max-width: 100%;
+    height: auto;
+    transition: text-align 0.3s ease-in-out;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer-links {
+    margin-top: 15px;
+    transition: margin-top 0.3s ease-in-out;
+}
+
+.footer-links a {
+    color: #bc0000;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-title {
+    color: #f58220;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+
+.quick-links ul,
+.visa-info ul {
+    list-style-type: none;
+    padding: 0;
+    transition: padding 0.3s ease-in-out;
+}
+
+.quick-links ul li,
+.visa-info ul li {
+    margin-bottom: 10px;
+    transition: margin-bottom 0.3s ease-in-out;
+}
+
+.quick-links ul li a,
+.visa-info ul li a {
+    color: #cc39ac;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.quick-links ul li a:hover,
+.visa-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p,
+.visa-info p {
+    color:#f58220;
+    margin-bottom: 10px;
+    transition: margin-bottom 0.3s ease-in-out;
+}
+
+.contact-info .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #cc0000cb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact-info .social-icons a:hover {
+    color: #f58220;
+}
+
+i.fa {
+    margin-right: 8px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #20caf5;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px;
+    }
+
+    .footer-section {
+        margin-bottom: 15px;
+    }
+
+    .footer-title {
+        font-size: 16px;
+    }
+
+    .address, .footer-links a, .contact-info p, .visa-info p {
+        font-size: 13px;
+    }
+}

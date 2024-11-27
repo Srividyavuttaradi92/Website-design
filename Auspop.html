@@ -1,0 +1,82 @@
+
+<html>
+    <head>
+        <title>Free Counselling</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="Australia.css">
+        
+    </head>
+    <body>
+        <div id="popupForm" class="d-flex popup-container">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">&times;</span>
+                <h2>Contact Us</h2>
+                <form id="counsellingForm">
+                    <div class="form-group row">
+                        <label for="email" class="col-sm-4 col-form-label"><strong>Email:</strong></label>
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-4 col-form-label"><strong>Name:</strong></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="mobile" class="col-sm-4 col-form-label"><strong>Mobile:</strong></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="mobile" placeholder="Mobile Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="qualification" class="col-sm-4 col-form-label"><strong>Qualification:</strong></label>
+                        <div class="col-sm-8">
+                            <select class="form-control" id="qualification" required>
+                                <option value="">Select</option>
+                                <option value="10pass">10 Pass</option>
+                                <option value="12 pass">12 Pass</option>
+                                <option value="bachelors">Bachelors</option>
+                                <option value="masters">Masters</option>
+                                <option value="pg">Post Graduation</option>
+                                <option value="phd">PHD</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="service" class="col-sm-4 col-form-label"><strong>Services:</strong></label>
+                        <div class="col-sm-8">
+                            <select class="form-control" id="service" required>
+                                <option value="">Select</option>
+                                <option value="prvisa">PR Visa</option>
+                                <option value="studentvisa">Student Visa</option>
+                                <option value="visitvisa">Visit Visa</option>
+                                <option value="dependentvisa">Dependent Visa</option>
+                                <option value="jobseekervisa">Job Seeker Visa</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="city" class="col-sm-4 col-form-label"><strong>City:</strong></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="city" placeholder="Your City" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="comments" class="col-sm-4 col-form-label"><strong>Comments:</strong></label>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" id="comments" placeholder="Enter your message..." required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-8 offset-sm-4">
+                            <input type="submit" class="btn btn-success" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

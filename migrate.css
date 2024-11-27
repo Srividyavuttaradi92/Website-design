@@ -1,0 +1,100 @@
+/* Main container for the migrate section */
+.migrate-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+}
+
+/* Left side - Background image section */
+.background-image {
+    flex: 1;
+    background: url('images (12).jpeg') no-repeat center center/cover;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px; /* Adjust height as needed */
+}
+
+.background-image h1 {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+/* Right side - Form container */
+.form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #ff5722; /* Heading color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .migrate-section {
+        flex-direction: column;
+    }
+
+    .background-image, .form-container {
+        width: 100%;
+        flex: none;
+        margin-bottom: 20px;
+    }
+
+    .background-image {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
